@@ -41,6 +41,9 @@ const Index = () => {
           </ListItem>
         ))}
       </List>
+      <Box as="footer" p={4} textAlign="center" borderTop="1px" borderColor="gray.200">
+        © 2023 Todo App. All rights reserved.
+      </Box>
     </Box>
   );
 };
